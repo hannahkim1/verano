@@ -1,0 +1,135 @@
+header {
+    background-color: #DE5914;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 45px;
+
+    padding: 10px; 
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.introduction {
+    background-color: #94B2DB;
+    color: white; 
+
+    text-align: center;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.youtubeVideo {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    color: #DE5914;
+    font-size: 15px;
+}
+
+
+.videoCaptionSpotify {
+    background-color: #94B2DB;
+    color: white;
+    font-size: 17px;
+    font-weight: 550;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;  
+
+}
+
+.originButton {
+    background-color: #DE5914;
+    color: white;
+    text-align: center;
+
+    padding: 7px; 
+}
+
+.originBody {
+    color: #94B2DB;
+    font-weight: 550;
+    font-size: 18px;
+
+    padding: 20px;
+}
+
+.musicButton {
+    background-color: #DE5914;
+    color: white;
+    text-align: center;
+
+    padding: 7px; 
+}
+
+.musicBody {
+    color: #94B2DB;
+    font-weight: 550;
+    font-size: 18px;
+
+    padding: 18px;
+}
+
+.musicWebsite {
+    border: 3px solid #ffffff;
+    padding: 20px;
+
+    background-color: #94B2DB;
+    font-size: 18px;
+    color: white;
+}
+
+.musicWebsiteInfo {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.musicWebsiteLink {
+    /* find how to make the website bigger*/
+}
+
+.lyricButton {
+    background-color: #DE5914;
+    color: white;
+    text-align: center;
+
+    padding: 7px;
+}
+
+.lyricIntroduction {
+    color: #94B2DB;
+    font-size: 18px; 
+    padding: 20px;
+    text-align: center;
+}
+
+.girlFromIpanema {
+    background-color: #94B2DB;
+    padding: 20px;
+}
+
+.gIFPortuguese {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+/* need to fix this and make it side by side*/ 
+.gFIEnglish {
+    width: 50%;
+    float: right;
+
+}
