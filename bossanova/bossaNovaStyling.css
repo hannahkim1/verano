@@ -5,6 +5,7 @@ header {
     font-style: normal;
     font-weight: 100;
     font-size: 45px;
+    border-radius: 10px;
 
     padding: 10px; 
 }
@@ -13,11 +14,42 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.introduction {
+.navigationClass {
+    background-color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    border-radius: 40px;
+    border: 3px solid #dbdbdb;
+
+    color: black;
+    font-size: 27px;
+    text-align: center;
+}
+
+.navigation {
+    padding: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navigation:visited {
+    text-decoration: none;
+    color: black;
+}
+.navigation:hover {
+    text-decoration: none;
+    color: #DE5914;
+}
+
+
+.introductionParagraph {
     background-color: #94B2DB;
     color: white; 
 
     text-align: center;
+    border-radius: 10px;
     
     padding-left: 20px;
     padding-right: 20px;
@@ -43,6 +75,7 @@ body {
     color: white;
     font-size: 17px;
     font-weight: 550;
+    border-radius: 10px;
 
     padding-left: 20px;
     padding-right: 20px;
@@ -57,6 +90,7 @@ body {
     text-align: center;
 
     padding: 7px; 
+    border-radius: 30px;
 }
 
 .originBody {
@@ -73,6 +107,7 @@ body {
     text-align: center;
 
     padding: 7px; 
+    border-radius: 30px;
 }
 
 .musicBody {
@@ -87,20 +122,14 @@ body {
     border: 3px solid #ffffff;
     padding: 20px;
 
-    background-color: #94B2DB;
+    background-color: white;
+    border-radius: 10px;
+
+
     font-size: 18px;
-    color: white;
+    color: #DE5914;
 }
 
-.musicWebsiteInfo {
-    width: 50%;
-    float: left;
-    padding: 20px;
-}
-
-.musicWebsiteLink {
-    /* find how to make the website bigger*/
-}
 
 .lyricButton {
     background-color: #DE5914;
@@ -108,28 +137,107 @@ body {
     text-align: center;
 
     padding: 7px;
+    border-radius: 30px;
 }
 
 .lyricIntroduction {
+    background-color: white;
     color: #94B2DB;
     font-size: 18px; 
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .girlFromIpanema {
+    background-color: #fff;
+    padding: 20px;
+    color: black;
+    text-align: center;
+
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.spotifyLinks {
     background-color: #94B2DB;
     padding: 20px;
+    border-radius: 30px;
+    text-align: center;
 }
 
-.gIFPortuguese {
-    width: 50%;
-    float: left;
+
+.coisaMaisLinda {
+    background-color: #fff;
+    padding: 20px;
+    color: black;
+    text-align: center;
+
+    border: 3px solid #fff;
+    border-radius: 20px;
     padding: 20px;
 }
-/* need to fix this and make it side by side*/ 
-.gFIEnglish {
-    width: 50%;
-    float: right;
 
+.artistsButton {
+    background-color: #DE5914;
+    color: white;
+    text-align: center;
+
+    padding: 7px; 
+    border-radius: 30px;
+}
+
+
+.artistIntroduction {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.tomJobimSection {
+    background-color: #94B2DB;
+    color: white;
+
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.joaoGilbertoSection {
+    background-color: white;
+    color: #94B2DB;
+
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.artistsAdditionalInfo {
+    background-color: white;
+    color: #94B2DB;
+
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.johnnyAlfSection {
+    background-color: #94B2DB;
+    color: white;
+
+    text-align: center; 
+    border-radius: 10px;
+    font-size: 18px;
+
+    padding: 30px;
+}
+
+.significance {
+    background-color: white;
+    color: #94B2DB;
+
+    font-size: 20px;
+    padding: 20px;
+
+    text-align: center;
 }
